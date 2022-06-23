@@ -1,6 +1,6 @@
-A free and open-source SMS/Call bombing application
+# A free and open-source SMS/Call bombing application
 
-NOTE:
+# NOTE:
 Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.
 
 The application requires active internet connection to contact the APIs
@@ -15,10 +15,10 @@ Check your Python version by typing in
 $ python --version
 If you get the following
 
-Python 3.8.3
+# Python 3.8.3
 or any version greater than or equal to 3.4, this script has been tested and confirmed to be supported. For obsolete versions of Python (eg 2.7), use discretion while executing the script as it has not been tested there.
 
-Features
+# Features
 Over 15 integrated messaging and calling APIs included with JSON
 Unlimited (with abuse protection) and super-fast bombing with multithreading
 Possibility of international API support (APIs are offline)
@@ -27,7 +27,7 @@ Actively supported by the developers with frequent updates and bug-fixes
 Intuitive auto-update feature and notification fetch feature included
 Recently made free and open-source for community contributions
 Modular codebase and snippets can be easily embedded in other program
-Usage:
+# Usage:
 Install by PIP (Recommended)
 Before continuing make sure following requirements are satisfied:
 
@@ -40,14 +40,14 @@ Run TBomb by just typing:
 
 tbomb
 Install from GIT
-NOTE
+# NOTE
 Git installation methods are not universal and are likely to differ between distributions so installing Git as per the given instructions below may not work. Please check out how to install Git for your Linux distribution here. Commands below provide instructions for Debian-based systems.
 
 Running TBomb.sh as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
-Run these commands to clone and run TBomb.
+# Run these commands to clone and run TBomb.
 
-For Termux
+# For Termux
 To use the bomber type the following commands in Termux:
 
 pkg install git -y 
@@ -78,7 +78,7 @@ bash TBomb.sh
 For MacOS
 To use the application, type in the following commands in MacOS terminal:
 
-Install via Homebrew
+# Install via Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 Install dependencies:
 brew install git
@@ -91,25 +91,25 @@ bash TBomb.sh
 Missing Tools on MacOS
 The package toilet cannot be installed yet on macOS. But TBomb does still work.
 
-Demonstrative Video:
+# Demonstrative Video:
 Watch Indian Bombing Method here
 Watch International Bombing Method here.
-Contributors
+# Contributors
 Catch t0xic0der at https://atlasdoc.netlify.app
 Check Avinash at https://github.com/AvinashReddy3108
 Mail scpketer at scpketer@protonmail.ch
 Mail 0n1cOn3 at 0n1cOn3@gmx.ch
 Ping Rieltar at https://t.me/RieltarReborn
-Donators:
+# Donators:
 34D30Y
 SC AMAN
-TODO:
+# TODO:
  Make Code More Readable and Extensible
  Add More Mail Spam APIs
  Add More SMS Spam APIs
  Add More Call Spam APIs
  Resolve threading issue in some devices
-FAQ
+# FAQ
 Q: Is there any TBomb Website/App ?
 
 A: There is no official website/app yet.The only official releases of TBomb are published in Github and PyPi
@@ -138,10 +138,10 @@ Q: Help, I got the error that the requirements aren't installed, even when the i
 
 A: First, make sure python3 and pip3 are installed.
 
-The Easy Method:
+# The Easy Method:
 pip3 install tbomb
 Then execute by simply running tbomb
-The Git Method:
+# The Git Method:
 Clone the repo and Switch to the TBomb Directory and execute this command:
 pip3 install -r requirements.txt
 Q: Help, It says command 'tbomb' not found after installing PIP version!
